@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		730954EE32585C12F8674F0A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6977B5D89CF9CAA47C0F1C8E /* libPods.a */; };
+		C4AAD7D81C2406120012ED00 /* Coin+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AAD7D51C2406120012ED00 /* Coin+CoreDataProperties.m */; };
+		C4AAD7D91C2406120012ED00 /* Coin.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AAD7D71C2406120012ED00 /* Coin.m */; };
 		C4E22DF01C1EDA0E0017A882 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E22DEF1C1EDA0E0017A882 /* main.m */; };
 		C4E22DF31C1EDA0E0017A882 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E22DF21C1EDA0E0017A882 /* AppDelegate.m */; };
 		C4E22DF61C1EDA0E0017A882 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E22DF51C1EDA0E0017A882 /* ViewController.m */; };
@@ -21,6 +23,10 @@
 		506CB1300319E240D25F3CC6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6977B5D89CF9CAA47C0F1C8E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD2E30581A5768CB727CD7E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C4AAD7D41C2406120012ED00 /* Coin+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Coin+CoreDataProperties.h"; sourceTree = "<group>"; };
+		C4AAD7D51C2406120012ED00 /* Coin+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Coin+CoreDataProperties.m"; sourceTree = "<group>"; };
+		C4AAD7D61C2406120012ED00 /* Coin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coin.h; sourceTree = "<group>"; };
+		C4AAD7D71C2406120012ED00 /* Coin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coin.m; sourceTree = "<group>"; };
 		C4E22DEB1C1EDA0E0017A882 /* Rate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E22DEF1C1EDA0E0017A882 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4E22DF11C1EDA0E0017A882 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +90,10 @@
 		C4E22DED1C1EDA0E0017A882 /* Rate */ = {
 			isa = PBXGroup;
 			children = (
+				C4AAD7D41C2406120012ED00 /* Coin+CoreDataProperties.h */,
+				C4AAD7D51C2406120012ED00 /* Coin+CoreDataProperties.m */,
+				C4AAD7D61C2406120012ED00 /* Coin.h */,
+				C4AAD7D71C2406120012ED00 /* Coin.m */,
 				C4E22DF11C1EDA0E0017A882 /* AppDelegate.h */,
 				C4E22DF21C1EDA0E0017A882 /* AppDelegate.m */,
 				C4E22DF41C1EDA0E0017A882 /* ViewController.h */,
@@ -229,6 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4E22DF61C1EDA0E0017A882 /* ViewController.m in Sources */,
+				C4AAD7D81C2406120012ED00 /* Coin+CoreDataProperties.m in Sources */,
+				C4AAD7D91C2406120012ED00 /* Coin.m in Sources */,
 				C4E22DFC1C1EDA0E0017A882 /* Rate.xcdatamodeld in Sources */,
 				C4E22DF31C1EDA0E0017A882 /* AppDelegate.m in Sources */,
 				C4E22DF01C1EDA0E0017A882 /* main.m in Sources */,
